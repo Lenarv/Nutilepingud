@@ -7,9 +7,7 @@ const router = express.Router()
 router.get('/',(req,res) => {
   if(req.query.nimi != undefined) {
     res.send('Tere, ' + req.query.nimi + "!");
-  } else {
-    res.send('Tere, John Doe!')
-  }
+  } 
 })
 
 router.get('/test',(req,res) => {
