@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+    <input type="text" placeholder="Kirjuta enda nimi..." id="input">
+    <button type="button" onclick="getInputValue();">Vajuta</button>
+	
+    <script>
+        function getInputValue(){
+            var inputVal = document.getElementById("input").value;
+            
+            // Displaying the value
+            alert(inputVal);
+        }
+    </script>
+</body>
+</html>
